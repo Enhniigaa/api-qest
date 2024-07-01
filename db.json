@@ -1,0 +1,45 @@
+{
+    "informations": [
+        {
+            "id": 1,
+            "name": "form",
+            "type": "Multiple",
+            "person_type": "employer",
+            "question": "there is an array of numbers. Sort them and find the middle or median of that array of integer",
+            "answer": "use the sort() method and find its length"
+          },
+          {
+            "id": 2,
+            "name": "hashmap",
+            "type": "Multiple",
+            "person_type": "employer",
+            "question": "there is an array of numbers. Sort them and find the middle or median of that array of integer",
+            "answer": "use the sort() method and find its length"
+          },
+          {
+            "id": 3,
+            "name": "integer",
+            "type": "Multiple",
+            "person_type": "employer",
+            "question": "there is an array of numbers. Sort them and find the middle or median of that array of integer",
+            "answer": "use the sort() method and find its length"
+          },
+          {
+            "id": 4,
+            "name": "object",
+            "type": "Multiple",
+            "person_type": "employer",
+            "question": "there is an array of numbers. Sort them and find the middle or median of that array of integer",
+            "answer": "use the sort() method and find its length"
+          },
+          {
+            "id": 5,
+            "name": "string",
+            "type": "Multiple",
+            "person_type": "employer",
+            "question": "there is an array of numbers. Sort them and find the middle or median of that array of integer",
+            "answer": "use the sort() method and find its length"
+          }
+    ]
+}
+

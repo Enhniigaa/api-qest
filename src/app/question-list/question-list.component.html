@@ -1,0 +1,12 @@
+<main>
+    <div class="search">
+        <input placeholder="Filter by name" #filter class="filter">
+        <button class="searchButton" type="button" (click)="filterResults(filter.value)">Search</button> 
+        <button class="newQuestionIcon" [routerLink]="['/newQuestion']">New +</button>
+    </div>
+    <app-question-form
+        *ngFor="let question of filteredQuestionList"
+        [question]="question"   
+    ></app-question-form>
+    
+</main>

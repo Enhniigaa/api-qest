@@ -1,0 +1,22 @@
+<article class="container">
+    <section class="title">
+        <h2>Hashmap for Employer</h2>
+        <h3>type: Multiple</h3>
+    </section>
+        <p class="question">Given a number of integer on an array</p>
+
+        <div class="answers">
+            <input class="answer" type="text" #answer>
+            <button class="checkButton" type="button" (click)="submitAnswer(answer.value)">Submit</button>
+        </div>
+        <div class="rightAnswer">
+            <p>it was not the right answer</p>
+        </div>
+        <div>
+            <button class="deleteIcon" (click)="!deleteConfirm">Delete</button>
+            <button class="saceIcon" (click)="editChanges()">Edit</button>
+        </div>
+
+        <app-confirm *ngIf="deleteConfirm"></app-confirm>
+
+</article>

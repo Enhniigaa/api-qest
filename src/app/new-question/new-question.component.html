@@ -1,0 +1,60 @@
+<div class="container">
+    <h1>New question</h1>
+
+        <div>
+            <form><strong>Name:</strong></form>
+            <input type="text" name="input"  required>
+        </div>
+        
+        <div>
+            <form><strong>Type of question:</strong></form>
+            <div class="btn">
+                <button>Multiple choices</button>
+                <button>Single choice</button>
+                <button>Input required</button>
+            </div>
+        </div>
+        <div>
+            <form><strong>Person:</strong></form>
+            <input type="text" name="input"  required>
+        </div>
+        <div>
+            <form><strong>Question:</strong></form>
+            <input type="text" name="input" required>
+        </div>
+        
+        <div>
+            <form><strong>Answer:</strong></form>
+            <input type="text" name="input" required    s>
+        </div>
+    </div>
+<div class="createdQuestion">
+    <div class="content"
+    *ngFor="let question in questionList"
+    >
+        <div class="name">
+            <label><strong>Name:</strong></label>
+            <p>{{question?.name}}</p>
+        </div>
+        <div class="type">
+            <label><strong>Type:</strong></label>
+            <p>{{question?.type}}</p>
+        </div>
+        <div class="person_type">
+            <label><strong>Person type:</strong></label>
+            <p>{{question?.person_type}}</p>
+        </div>
+        <div class="question">
+            <label><strong>Question:</strong></label>
+            <p>{{question?.question}}</p>
+        </div>
+        <div class="answer">
+            <label><strong>Answer:</strong></label>
+            <p>{{question?.answer}}</p>
+        </div>
+        <div class="button-row">
+            <button class="onSave" (click)="onSave()">Save</button>
+            <button class="onDelete" (click)="onDelete()">Delete</button>
+        </div>
+    </div>
+</div>

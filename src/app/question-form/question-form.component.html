@@ -1,0 +1,31 @@
+    <div class="container">
+    <div class="id">
+        <label><strong>Id:</strong></label>
+        <p>{{question.id}}</p>
+    </div>
+    <div class="name">
+        <label><strong>Name:</strong></label>
+        <p>{{question.name}}</p>
+    </div>
+    <div class="type">
+        <label><strong>Type:</strong></label>
+        <p>{{question.type}}</p>
+    </div>
+    <div class="person_type">
+        <label><strong>Person type:</strong></label>
+        <p>{{question.person_type}}</p>
+    </div>
+    <div class="question">
+        <label><strong>Question:</strong></label>
+        <p>{{question.question}}</p>
+    </div>
+    <div class="answer">
+        <label><strong>Answer:</strong></label>
+        <p>{{question.answer}}</p>
+    </div>
+    <div class="btn">
+        <button>Delete question</button>
+        <a [routerLink]="['/question', question.id]">Enter question</a>
+    </div>
+
+    </div>
